@@ -60,7 +60,7 @@ Last login: Sat Apr 15 15:05:55 2023 from 192.168.10.66
 <img width="709" alt="OPi-Monitor - load,speed,temperature" src="https://user-images.githubusercontent.com/5048591/232230631-06a93377-7920-44de-b26c-e45e44ae470a.png">
 
 Temperature is "low" even Opi Zero is in the Orange Pi black box with extension board inside.
-CPU has only passive small heatsing.
+CPU has only passive small heatsink.
 * High peak at 15:09 was start of packages installations.
 * Since 15:37 started compilnng of ffmpeg form sources.
 
