@@ -61,8 +61,14 @@ Last login: Sat Apr 15 15:05:55 2023 from 192.168.10.66
 
 Temperature is "low" even Opi Zero is in the Orange Pi black box with extension board inside.
 CPU has only passive small heatsink.
-* High peak at 15:09 was start of packages installation.
-* Since 15:37 started compiling of ffmpeg from sources.
+* 14:44 booted kernel with incorrect core temperature reading (executed `htop`, new kernel copy & installation).
+* 15:09 booted kernel with temperature reading FIX.
+* 15:20 start of packages installation.
+* 15:37 started compiling of ffmpeg from sources (using 1 core).
+
+<img width="706" alt="OPi-Monitor - load,speed,temperature - make -j4 at 71°C" src="https://user-images.githubusercontent.com/5048591/232234457-a4b9a79e-a456-48c6-a23f-b31f4dbb0944.png">
+
+* 16:53 performed make using 4 threads (to utilise all 4 cores), temperature rose (at peak) to 71 °C.
 
 ## DEBUG
 There is also activated DEBUG of h3 calibration value burned in chip.
